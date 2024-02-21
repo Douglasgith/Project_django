@@ -23,7 +23,7 @@ class LoginForms(forms.Form):
    )
 
 
-class CadastroFroms(forms.Form):
+class CadastroForms(forms.Form):
    nome_cadastro=forms.CharField(
       label="Nome de Cadastro ",
       required=True,
